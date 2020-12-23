@@ -205,7 +205,7 @@ def _get_image(html: str) -> tuple:
     """
     soup: bs4.BeautifulSoup = bs4.BeautifulSoup(html, "html.parser")
     image = soup.find('img', {"class": "thumbnail", "itemprop": "image"})
-    url = BASE_URL + str(image.attrs['src'])[1:]
+    url: str = BASE_URL + str(image.attrs['src'])[1:]
     return requests.get(url).content, url
 
 

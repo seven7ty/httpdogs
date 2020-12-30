@@ -63,7 +63,7 @@ dog_image.show()
 This package is opensource so anyone with adequate python experience can contribute to this project!
 
 ### Report Issues
-If you find any errors/bugs/mistakes with the package or in the code feel free to create an issue and report it [here.](https://github.com/itsmewulf/httpdogs/issues)
+If you find any errors/bugs/mistakes with the package or in the code feel free to create an issue and report them [here.](https://github.com/itsmewulf/httpdogs/issues)
 
 ### Fix/Edit Content
 If you want to contribute to this package, fork the repository, make your changes and then simply create a Pull Request!
